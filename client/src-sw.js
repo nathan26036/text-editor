@@ -27,7 +27,7 @@ warmStrategyCache({
 registerRoute(
   // Here we define the callback function that will filter the requests we want to cache (in this case, JS and CSS files)
   ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
-  new StaleWhileRevalidate({
+  new CacheFirst({
     // Name of the cache storage.
     cacheName: 'asset-cache',
     plugins: [
