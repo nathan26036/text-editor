@@ -1,6 +1,6 @@
 # Text Editor
 
-The goal of this project is to build a text editor. The text editor will also be able to be downloaded and used offline as an application.
+The goal of this project is to build a text editor in the style of JavaScript. The text editor will also be able to be downloaded and used offline as an application.
 
 ## The process
 
@@ -12,7 +12,7 @@ The goal of this project is to build a text editor. The text editor will also be
 * Created a register route for the service worker to cache assets
 * Added plugins for manifest for the offline application
 
-![Image of the online and offline application]()
+![Image of the online and offline application](https://github.com/nathan26036/text-editor/blob/main/Assets/jate_screenshot.PNG)
   
 ## Installation 
 The final code tutorial can be found at https://text-editor-qmgk.onrender.com
